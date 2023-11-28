@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Klein;
+    src: url(klein.ttf);
+}
+
+body {
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Klein', sans-serif;
+    background-color: #FEEFE7; 
+}
+
+.href {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #F36917; /* Laranja */
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    text-decoration: none;
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+/* ... (código anterior) */
+
+.nav-link {
+    color: inherit; /* Herda a cor do texto do pai (button) */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+
+.btn a {
+    color: inherit;
+    text-decoration: none !important;
+
+}
+
+button a {
+    text-decoration: none !important;;
+}
+
+img {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+text-decoration: none !important;
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #ffffff;
+background-color: #2a1a49;
+padding: 10px 30px;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.btn:hover{
+text-decoration: none !important;
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #f36917;
+color: #ffffff;
+border: solid 3px #f36917;
+}
+
+/* ... (código anterior) */
+
+.content.candidates {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: flex-start; /* Alteração para exibir os itens na vertical */
+}
+
+.content.prop {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: flex-start; /* Alteração para exibir os itens na vertical */
+}
+
+.column {
+    text-align: center;
+}
+
+.candidate {
+    margin-bottom: 20px;
+}
+
+.candidate img {
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição para a propriedade transform */
+}
+
+.candidate:hover img {
+    transform: scale(1.1); /* Aumenta a escala em 10% quando o mouse está sobre a imagem */
+}
+
+.candidate p {
+    margin: 10px 0 0;
+}
+
