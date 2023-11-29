@@ -18,7 +18,7 @@ body {
 .navbar {
     background-color: #F36917; /* Laranja */
     text-align: center;
-    padding: 10px;
+    padding: 0.8%;
 }
 
 .navbar ul {
@@ -30,7 +30,7 @@ body {
 .navbar li {
     text-decoration: none;
     display: inline;
-    margin: 0 20px;
+    margin: 0 2%;
 }
 
 .navbar a {
@@ -56,7 +56,7 @@ button a {
 
 img {
     display: block;
-    margin-top: 100px;
+    margin-top: 6%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,10 +67,10 @@ img {
 text-decoration: none !important;
 font-family: Roboto, sans-serif;
 font-weight: 0;
-font-size: 14px;
+font-size: 70%;
 color: #ffffff;
 background-color: #2a1a49;
-padding: 10px 30px;
+padding: 1% 3%;
 border: none;
 box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 border-radius: 50px;
@@ -83,7 +83,7 @@ text-transform: uppercase;
 .btn:hover{
 text-decoration: none !important;
 transition : 1000ms;
-padding: 10px 50px;
+padding: 1% 5%;
 transform : translateY(-0px);
 background-color: #f36917;
 color: #ffffff;
@@ -109,14 +109,14 @@ border: solid 3px #f36917;
 }
 
 .candidate {
-    margin-bottom: 20px;
+    margin-bottom: 20%;
 }
 
 .candidate img {
-    width: 500px;
-    height: 500px;
+    width: 65%;
+    height: 65%;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 10%;
     transition: transform 0.3s ease-in-out; /* Adiciona uma transição para a propriedade transform */
 }
 
@@ -125,6 +125,6 @@ border: solid 3px #f36917;
 }
 
 .candidate p {
-    margin: 10px 0 0;
+    margin: 1% 0 0;
 }
 
